@@ -1,243 +1,219 @@
 <!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="ICT-portfolio van Hendrik Natawidjaja – ICT Support, Servicedesk en Junior Systeembeheer." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ICT-portfolio van Hendrik Natawidjaja – IT Support, Servicedesk en Junior Systeembeheer.">
   <title>Hendrik Natawidjaja | ICT Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Naar boven">HN<span>.</span></a>
-      <button class="menu-btn" aria-label="Menu openen" aria-expanded="false">☰</button>
-      <nav class="nav" aria-label="Hoofdnavigatie">
-        <a href="#over-mij">Over mij</a>
-        <a href="#certificaten">Certificaten</a>
-        <a href="#vaardigheden">Vaardigheden</a>
-        <a href="#projecten">Projecten</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+<header class="topbar">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="#top">HN<span>/IT</span></a>
+    <button class="menu" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#profiel">Profiel</a>
+      <a href="#certificaten">Certificaten</a>
+      <a href="#skills">Skills</a>
+      <a href="#projecten">Projecten</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <main id="top">
-    <section class="hero section">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">ICT SUPPORT · SERVICEDESK · JUNIOR SYSTEEMBEHEER</p>
-          <h1>Hendrik<br><span>Natawidjaja</span></h1>
-          <p class="hero-copy">
-            Omscholer naar ICT met een praktische, klantgerichte aanpak. Ik combineer technische probleemoplossing,
-            duidelijke communicatie en een sterke motivatie om mij verder te ontwikkelen binnen support, Microsoft 365,
-            endpointbeheer en systeembeheer.
-          </p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#certificaten">Bekijk certificaten</a>
-            <a class="btn ghost" href="#projecten">Bekijk projecten</a>
-          </div>
-             <section class="stats-strip">
-      <div class="container stats-grid">
-        <div><strong>08.09.2026</strong><span>Winc-certificaat behaald</span></div>
-        <div><strong>MD-102</strong><span>Volgende leerstap</span></div>
-        <div><strong>Microsoft</strong><span>Endpoint & cloud richting</span></div>
-        <div><strong>Hands-on</strong><span>Labs & troubleshooting</span></div>
-      </div>
-    </section>
-
+<main id="top">
+  <section class="hero">
+    <div class="hero-shape" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">ICT SUPPORT · SERVICEDESK · JUNIOR SYSTEEMBEHEER</p>
+        <h1>Hendrik<br><span>Natawidjaja</span></h1>
+        <p class="lead">Junior IT Professional met focus op support, Microsoft 365, endpointbeheer, troubleshooting en systeembeheer.</p>
+        <div class="actions">
+          <a class="button blue" href="#certificaten">Certificaten</a>
+          <a class="button white" href="#projecten">Projecten</a>
         </div>
+        <div class="tagline">
+          <span>IT Support</span><span>Servicedesk</span><span>Windows 11</span><span>ServiceNow</span><span>Networking</span>
+        </div>
+      </div>
 
-        <aside class="profile-card">
-          <div class="avatar">HN</div>
-          <div>
-            <p class="muted">Profiel</p>
-            <h2>Junior IT Professional</h2>
+      <aside class="profile-card dark-profile">
+        <div class="avatar">HN</div>
+        <p class="profile-label">Profiel</p>
+        <h2>Junior IT Professional</h2>
+        <ul>
+          <li>Windows 10/11 troubleshooting</li>
+          <li>Microsoft 365 basisbeheer</li>
+          <li>ServiceNow / ticketafhandeling</li>
+          <li>Hardware & software support</li>
+          <li>Basis networking & security</li>
+        </ul>
+        <a href="#contact">Neem contact op →</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="wrap stats-grid">
+      <div><strong>08.09.2026</strong><span>Winc-certificaat behaald</span></div>
+      <div><strong>MD-102</strong><span>Volgende leerstap</span></div>
+      <div><strong>Microsoft</strong><span>Endpoint & cloud richting</span></div>
+      <div><strong>Hands-on</strong><span>Labs & troubleshooting</span></div>
+    </div>
+  </section>
+
+  <section id="profiel" class="section profile-section">
+    <div class="wrap split profile-split">
+      <div>
+        <p class="section-label">01 / PROFIEL</p>
+        <h2 class="display">Van grafisch<br>vakman naar IT-<br>professional</h2>
+      </div>
+      <div class="profile-body">
+        <p>Met mijn afgeronde opleiding tot IT Servicedesk Medewerker maak ik bewust de overstap naar ICT. Vanuit mijn eerdere werkervaring neem ik sterke communicatieve vaardigheden, klantgerichtheid en een praktische manier van probleemoplossen mee.</p>
+        <p>Ik werk nauwkeurig, blijf rustig bij storingen en leer nieuwe systemen snel. Mijn doel is om mij verder te ontwikkelen binnen ICT-support, servicedesk, endpointbeheer en uiteindelijk systeem- en cloudbeheer.</p>
+        <div class="traits">
+          <div><span>01</span><strong>Klantgericht</strong><small>Duidelijke communicatie en service</small></div>
+          <div><span>02</span><strong>Probleemoplossend</strong><small>Gestructureerd analyseren</small></div>
+          <div><span>03</span><strong>Leergierig</strong><small>Gericht op Microsoft-technologie</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificaten" class="section certificates">
+    <div class="wrap">
+      <div class="heading-row">
+        <div>
+          <p class="section-label">02 / CERTIFICATEN</p>
+          <h2 class="display wide">Certificering & ontwikkeling</h2>
+        </div>
+        <p>Actueel bewijs van kennis, aangevuld met mijn volgende leerdoelen.</p>
+      </div>
+
+      <div class="cert-grid">
+        <article class="cert-main">
+          <div class="cert-copy">
+            <span class="status success">BEHAALD</span>
+            <h3>IT Servicedesk<br>Medewerker</h3>
+            <p class="sub">Winc Academy · 8 september 2026</p>
+            <p>Opleiding gericht op IT-support, servicedeskprocessen, troubleshooting en ondersteuning van eindgebruikers.</p>
+            <div class="chips"><span>IT Support</span><span>Servicedesk</span><span>Troubleshooting</span><span>ServiceNow</span></div>
+            <a class="button blue small" href="assets/certificates/winc-it-servicedesk-medewerker.pdf" target="_blank" rel="noopener">Bekijk PDF</a>
           </div>
-          <ul class="check-list">
-            <li>Windows 10/11 troubleshooting</li>
-            <li>Microsoft 365 basisbeheer</li>
-            <li>ServiceNow / ticketafhandeling</li>
-            <li>Hardware & software support</li>
-            <li>Basis networking & security</li>
+          <a class="cert-preview" href="assets/certificates/winc-it-servicedesk-medewerker.pdf" target="_blank" rel="noopener" aria-label="Bekijk Winc certificaat">
+            <img src="assets/certificates/winc-it-servicedesk-medewerker.png" alt="Winc Academy certificaat IT Servicedesk Medewerker">
+          </a>
+        </article>
+
+        <article class="next-card">
+          <p class="next-label">VOLGENDE STAP</p>
+          <div class="ms">M</div>
+          <h3>Microsoft MD-102</h3>
+          <p>Endpoint Administrator</p>
+          <ul>
+            <li>Microsoft Intune</li>
+            <li>Windows endpoints</li>
+            <li>Identity & compliance</li>
+            <li>Security & deployment</li>
           </ul>
-          <a class="text-link" href="#contact">Neem contact op →</a>
-        </aside>
+          <div class="progress"><span></span></div>
+          <small>Studieroute / leerdoel</small>
+        </article>
       </div>
-    </section>
-
-    <section id="over-mij" class="section section-alt">
-      <div class="container two-col">
-        <div>
-          <p class="section-label">01 · OVER MIJ</p>
-          <h2>Bewuste overstap naar ICT</h2>
-        </div>
-        <div class="prose">
-          <p>
-            Met mijn afgeronde opleiding tot IT Servicedesk Medewerker maak ik bewust de overstap naar de ICT.
-            Vanuit mijn eerdere werkervaring neem ik sterke communicatieve vaardigheden, klantgerichtheid en een praktische
-            manier van probleemoplossen mee.
-          </p>
-          <p>
-            Ik werk nauwkeurig, blijf rustig bij storingen en leer nieuwe systemen snel. Mijn doel is om mij verder te
-            ontwikkelen binnen ICT-support, servicedesk, endpointbeheer en uiteindelijk systeem- en cloudbeheer.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="certificaten" class="section">
-      <div class="container">
-        <p class="section-label">02 · CERTIFICATEN</p>
-        <div class="section-heading-row">
-          <h2>Behaalde certificering</h2>
-          <p>Bewijs van mijn ontwikkeling en actuele ICT-kennis.</p>
-        </div>
-
-        <div class="cards cert-grid">
-          <article class="card featured">
-            <div class="card-topline">
-              <span class="pill success">BEHAALD</span>
-              <span class="year">2026</span>
-            </div>
-            <div class="cert-mark">WA</div>
-            <h3>IT Servicedesk Medewerker</h3>
-            <p class="sub">Winc Academy</p>
-            <p>
-              Winc Academy-certificaat voor het succesvol afronden van de opleiding IT Servicedesk Medewerker,
-              behaald op 8 september 2026.
-            </p>
-            <a class="cert-preview" href="assets/certificates/winc-it-servicedesk-medewerker.pdf" target="_blank" rel="noopener" aria-label="Open het Winc Academy certificaat als PDF">
-              <img src="assets/certificates/winc-it-servicedesk-medewerker.png" alt="Winc Academy certificaat IT Servicedesk Medewerker van Hendrik Natawidjaja" loading="lazy">
-            </a>
-            <div class="tag-row">
-              <span>IT Support</span><span>Servicedesk</span><span>Troubleshooting</span><span>Service</span>
-            </div>
-            <a class="btn small" href="assets/certificates/winc-it-servicedesk-medewerker.pdf" target="_blank" rel="noopener">Bekijk certificaat (PDF)</a>
-          </article>
-
-          <article class="card roadmap-card">
-            <span class="pill">VOLGENDE STAP</span>
-            <div class="cert-mark outline">MS</div>
-            <h3>Microsoft MD-102</h3>
-            <p class="sub">Endpoint Administrator</p>
-            <p>
-              Verdieping in Microsoft Intune, Windows endpoints, identity, compliance, security, deployment en beheer.
-            </p>
-            <div class="progress"><span style="width:35%"></span></div>
-            <small>Leerdoel / studieroute</small>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="vaardigheden" class="section section-dark">
-      <div class="container">
-        <p class="section-label light">03 · VAARDIGHEDEN</p>
-        <div class="section-heading-row light-text">
-          <h2>Technische basis</h2>
-          <p>Vaardigheden die ik inzet en verder uitbouw.</p>
-        </div>
-        <div class="skill-grid">
-          <div class="skill-card"><span>01</span><h3>Windows</h3><p>Installatie, configuratie, gebruikersproblemen en troubleshooting.</p></div>
-          <div class="skill-card"><span>02</span><h3>Microsoft 365</h3><p>Basiskennis van accounts, applicaties en ondersteuning van eindgebruikers.</p></div>
-          <div class="skill-card"><span>03</span><h3>ServiceNow</h3><p>Tickets, incidenten, registratie, prioriteit, status en SLA-bewust werken.</p></div>
-          <div class="skill-card"><span>04</span><h3>Networking</h3><p>IP, DHCP, DNS, Wi‑Fi, routers, switches en basis netwerkdiagnose.</p></div>
-          <div class="skill-card"><span>05</span><h3>Hardware</h3><p>Werkplekken, randapparatuur, aansluitingen en systematische foutanalyse.</p></div>
-          <div class="skill-card"><span>06</span><h3>Security</h3><p>Basisprincipes rond accounts, updates, least privilege en veilig werken.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projecten" class="section">
-      <div class="container">
-        <p class="section-label">04 · PROJECTEN & LABS</p>
-        <div class="section-heading-row">
-          <h2>Praktijkgericht leren</h2>
-          <p>Voorbeelden van opdrachten waarmee ik mijn kennis aantoon.</p>
-        </div>
-
-        <div class="project-list">
-          <article class="project">
-            <div class="project-number">01</div>
-            <div>
-              <p class="eyebrow">SERVICEDESK</p>
-              <h3>ServiceNow incident- en ticketafhandeling</h3>
-              <p>
-                Oefeningen met incidentregistratie, categorisatie, prioriteit, statusupdates, SLA-bewaking en duidelijke
-                communicatie richting de gebruiker.
-              </p>
-              <div class="tag-row"><span>ServiceNow</span><span>Incident</span><span>SLA</span></div>
-            </div>
-          </article>
-
-          <article class="project">
-            <div class="project-number">02</div>
-            <div>
-              <p class="eyebrow">SUPPORT</p>
-              <h3>Windows troubleshooting</h3>
-              <p>
-                Systematisch analyseren van veelvoorkomende eindgebruikersproblemen: software, netwerkverbinding,
-                accounts, updates, randapparatuur en basis hardwarediagnose.
-              </p>
-              <div class="tag-row"><span>Windows 11</span><span>Support</span><span>Troubleshooting</span></div>
-            </div>
-          </article>
-
-          <article class="project">
-            <div class="project-number">03</div>
-            <div>
-              <p class="eyebrow">HOMELAB / NETWERK</p>
-              <h3>Netwerk & smart-home beheer</h3>
-              <p>
-                Praktijkervaring met routerconfiguratie, Wi‑Fi, mesh-netwerken, IP-apparatuur, PoE-vraagstukken en het
-                oplossen van verbindingsproblemen in een thuisnetwerk.
-              </p>
-              <div class="tag-row"><span>Router</span><span>Wi‑Fi</span><span>IP</span><span>PoE</span></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container roadmap">
-        <div>
-          <p class="section-label">05 · ONTWIKKELROUTE</p>
-          <h2>Waar ik naartoe werk</h2>
-        </div>
-        <ol class="timeline">
-          <li class="done"><span></span><div><strong>IT Servicedesk Medewerker</strong><small>Behaald 08-09-2026 · Winc Academy</small></div></li>
-          <li class="active"><span></span><div><strong>Microsoft MD-102</strong><small>Gepland · Endpoint Administrator</small></div></li>
-          <li><span></span><div><strong>Microsoft Azure</strong><small>Vervolg · AZ-900 / AZ-104</small></div></li>
-          <li><span></span><div><strong>Junior Systeembeheer</strong><small>Doelrol</small></div></li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div class="container contact-card">
-        <div>
-          <p class="section-label light">CONTACT</p>
-          <h2>Kennismaken?</h2>
-          <p>Ik sta open voor kansen binnen ICT Support, Servicedesk en Junior Systeembeheer.</p>
-        </div>
-        <div class="contact-actions">
-          <a class="btn primary" href="mailto:natawidjaja84@gmail.com">E-mail</a>
-          <a class="btn ghost light-border" href="https://www.linkedin.com/in/hnatawidjaja/" target="_blank" rel="noopener">LinkedIn</a>
-          <span class="btn ghost light-border disabled" aria-disabled="true">CV volgt</span>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-wrap">
-      <span>© <span id="year"></span> Hendrik Natawidjaja</span>
-      <span>ICT Portfolio</span>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="skills" class="section skills-section">
+    <div class="wrap">
+      <div class="heading-row light">
+        <div>
+          <p class="section-label green">03 / TECHNISCHE SKILLS</p>
+          <h2 class="display wide">Mijn technische basis</h2>
+        </div>
+        <p>Praktische kennis die ik inzet en verder uitbouw richting systeembeheer.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article><div class="ico">W</div><div><h3>Windows 10/11</h3><p>Installatie, configuratie, gebruikersproblemen, updates en troubleshooting.</p></div><span>01</span></article>
+        <article><div class="ico">365</div><div><h3>Microsoft 365</h3><p>Basisbeheer van accounts, applicaties en ondersteuning van eindgebruikers.</p></div><span>02</span></article>
+        <article><div class="ico">SN</div><div><h3>ServiceNow</h3><p>Incidentregistratie, prioriteit, status, ticketafhandeling en SLA-bewust werken.</p></div><span>03</span></article>
+        <article><div class="ico">NET</div><div><h3>Networking</h3><p>IP, DHCP, DNS, Wi-Fi, routers, switches en basis netwerkdiagnose.</p></div><span>04</span></article>
+        <article><div class="ico">HW</div><div><h3>Hardware</h3><p>Werkplekken, randapparatuur, aansluitingen en systematische foutanalyse.</p></div><span>05</span></article>
+        <article><div class="ico">SEC</div><div><h3>Security</h3><p>Accounts, updates, least privilege en basisprincipes van veilig werken.</p></div><span>06</span></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projecten" class="section projects-section">
+    <div class="wrap">
+      <div class="heading-row">
+        <div>
+          <p class="section-label">04 / PROJECTEN & LABS</p>
+          <h2 class="display wide">Praktijkervaring zichtbaar<br>maken</h2>
+        </div>
+        <p>Voorbeelden van opdrachten en thuislabs waarmee ik mijn kennis aantoon.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top"><span>01</span><b>SERVICEDESK</b></div>
+          <h3>ServiceNow incident- en ticketafhandeling</h3>
+          <p>Oefeningen met incidentregistratie, categorisatie, prioriteit, statusupdates, SLA-bewaking en duidelijke communicatie richting de gebruiker.</p>
+          <div class="chips"><span>ServiceNow</span><span>Incident</span><span>SLA</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>02</span><b>SUPPORT</b></div>
+          <h3>Windows troubleshooting</h3>
+          <p>Systematisch analyseren van software-, account-, netwerk-, update- en randapparatuurproblemen bij eindgebruikers.</p>
+          <div class="chips"><span>Windows 11</span><span>Support</span><span>Troubleshooting</span></div>
+        </article>
+        <article class="project-card tinted">
+          <div class="project-top"><span>03</span><b>HOMELAB</b></div>
+          <h3>Homelab & netwerkbeheer</h3>
+          <p>Praktijkervaring met routerconfiguratie, Wi-Fi, mesh-netwerken, IP-apparatuur, PoE-vraagstukken en verbindingsproblemen in een thuisnetwerk.</p>
+          <div class="chips"><span>Router</span><span>Wi-Fi</span><span>IP</span><span>PoE</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section route-section">
+    <div class="wrap route-grid">
+      <div>
+        <p class="section-label">05 / ONTWIKKELROUTE</p>
+        <h2 class="display">Stap voor stap<br>richting<br>systeembeheer</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item done"><i></i><div><strong>IT Servicedesk Medewerker</strong><small>Behaald · Winc Academy</small></div></div>
+        <div class="timeline-item current"><i></i><div><strong>Microsoft MD-102</strong><small>Volgende stap · Endpoint Administrator</small></div></div>
+        <div class="timeline-item"><i></i><div><strong>AZ-900 / AZ-104</strong><small>Microsoft Azure</small></div></div>
+        <div class="timeline-item"><i></i><div><strong>Junior Systeembeheer</strong><small>Doelrol</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="section-label green">CONTACT</p>
+        <h2 class="display">Open voor een<br>volgende stap in ICT.</h2>
+      </div>
+      <div class="contact-list">
+        <a href="mailto:natawidjaja84@gmail.com"><span>E-mail</span><strong>natawidjaja84@gmail.com</strong></a>
+        <a href="https://www.linkedin.com/in/hnatawidjaja/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>linkedin.com/in/hnatawidjaja</strong></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-row"><span>© <span id="year"></span> Hendrik Natawidjaja</span><span>ICT Portfolio · Optie 2</span></div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

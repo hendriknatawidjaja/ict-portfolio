@@ -1,16 +1,14 @@
-const menuButton = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
 const nav = document.querySelector('.nav');
-
-menuButton?.addEventListener('click', () => {
-  const isOpen = nav.classList.toggle('open');
-  menuButton.setAttribute('aria-expanded', String(isOpen));
-});
-
-document.querySelectorAll('.nav a').forEach(link => {
-  link.addEventListener('click', () => {
-    nav.classList.remove('open');
-    menuButton?.setAttribute('aria-expanded', 'false');
+if (menu && nav) {
+  menu.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    menu.setAttribute('aria-expanded', String(open));
   });
-});
-
-document.getElementById('year').textContent = new Date().getFullYear();
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('open');
+    menu.setAttribute('aria-expanded', 'false');
+  }));
+}
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();
